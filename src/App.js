@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ReactPlayer from "react-player";
 
 function App() {
   return (
-    <div className='titulo'>Site Larean em Desenvolvimento!</div>
+    <div className="headermain">
+      <h1>Site em Desenvolvimento!</h1>
+    </div>
   );
 }
 

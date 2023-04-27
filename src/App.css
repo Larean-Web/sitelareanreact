@@ -1,24 +1,6 @@
-.titulo {
+.headermain {
   position: absolute;
   top: 50%;
-  bottom: 0;
   left: 50%;
-  right: 0;
-  margin: auto;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  display: inline-block;
-  animation: digitar 3s steps(30) forwards;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid #000;
-
-}
-
-@keyframes digitar {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+  transform: translate(-50%, -50%);
 }
